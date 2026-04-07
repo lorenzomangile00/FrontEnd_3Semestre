@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sessao-noticias {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid black;
+    padding: 25px;
+    height: 800px;
+    width: 920px;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.noticia {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
