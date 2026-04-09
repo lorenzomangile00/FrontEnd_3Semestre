@@ -7,6 +7,45 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <header class="form-header">
+        <div class="container container--flex">
+        <img 
+            src="./images/driver.svg" 
+            alt="imagem ilustrativa de usuario"
+            class="form-header__image-perfil"
+            >
+        <h1 class="titulo-pagina">Contact form</h1>
+        <p class="form-header__text">Insira os dados do contato e clique em cadastrar!</p>   
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+        <form class="form-contact" action="">
+            <div class="form-contact__linha">
+                <div class="form-contact__col-a">
+                    <label class="form-contact__label" for="nome">Nome</label>
+                </div>
+                <div class="form-contact__col-b">
+                    <input class="form-contact__input form-contact__input--metade" type="text" id="nome" name="nome" placeholder="Nome">
+                    <input class="form-contact__input form-contact__input--metade" type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+                </div>
+            </div>
+
+            <div class="form-contact__linha">
+                <div class="form-contact__col-a">
+                    <label class="form-contact__label" for="nome">Email</label>
+                </div>
+                <div class="form-contact__col-b">
+                    <input class="form-contact__input form-contact__input--email" type="text" id="email" name="email" placeholder="Email">
+                </div>
+            </div>
+        </form>
+    </div>
+    </main>
+    <footer>
+        Todos os direitos reservados
+    </footer>
     
 </body>
 </html>
