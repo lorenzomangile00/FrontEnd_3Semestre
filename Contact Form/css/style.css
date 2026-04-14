@@ -3,6 +3,34 @@
     src: url(../css/fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
 }
 
+@media (max-width: 480px){
+
+    .form-contact__linha {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .form-contact__col-a {
+        display: none;
+    }
+
+    .form-contact__col-b {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: flex-start; 
+    }
+
+    .form-contact__input {
+        width: 100% !important;
+    }
+
+    .botao {
+        width: 100%;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +38,7 @@
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(to right bottom, #18A2C9 , #72C3BD);
     background-repeat: no-repeat;
@@ -93,6 +121,8 @@ body {
     outline: none;
     border-radius: 3px;
     transition: background-color 0.4s, color 0.4s;
+
+    
 }
 
 .form-contact__input::placeholder {
@@ -111,7 +141,11 @@ body {
 
 }
 
-.form-contact__input--email {
+.form-contact__input--terco {
+    width: 30%;
+}
+
+.form-contact__input--inteira {
     width: 100%;
     height: 35px;
     padding: 5px 10px;
@@ -121,4 +155,45 @@ body {
     outline: none;
     border-radius: 3px;
     transition: background-color 0.4s, color 0.4s;
+}
+
+.form-contact__input--quarto {
+    width: 24%;
+}
+
+.form-contact__input--grande {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+.form-contact__linha2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    background: transparent;
+    gap: 30px;
+}
+
+.botao {
+    height: 45px;
+    width: 35%;
+    background: transparent;
+    color: white;
+    border-radius: 3px;
+    border-color: white;
+    border: 1px solid white;
+}
+
+.botao:hover {
+    background-color: #43a2e1;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
