@@ -129,7 +129,7 @@ function validarFormulario() {
 
 
     if (quantidadeErros > 0) {
-        alert("Existem" + quantidadeErros + "erros no formulário!")
+        alert("Existem " + quantidadeErros + " erros no formulário!")
         quantidadeErros = 0;
         ;
     }else{
@@ -156,4 +156,10 @@ function reiniciaTodasAsBordas(){
     campos.forEach(function(campo){
         campo.style.border = "";
     });
+
+}
+
+function limparFormulario(){
+    document.getElementById("formulario").reset();
+    reiniciaTodasAsBordas();
 }
