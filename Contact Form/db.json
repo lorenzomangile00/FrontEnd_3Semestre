@@ -1,0 +1,81 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "Lorenzo",
+      "sobrenome": "Mangile",
+      "email": "loras@email.com",
+      "number_pais": "+55",
+      "number_estado": "11",
+      "number_tel": "99999-0000",
+      "cep": "09683000",
+      "rua": "Joao Biancalana",
+      "number-casa": "244",
+      "bloco": "bloco 7",
+      "bairro": "345",
+      "cidade": "666",
+      "estado": "Sao Paulo",
+      "anotacoes": "fwsfwefwef"
+    },
+    {
+      "nome": "Gustavo",
+      "sobrenome": "Negueba",
+      "id": "2"
+    },
+    {
+      "nome": "laura",
+      "sobrenome": "pykauany",
+      "id": "mz4fSJOch58"
+    },
+    {
+      "nome": "marcao",
+      "sobrenome": "dev",
+      "id": "YRUvoIU3V74"
+    },
+    {
+      "nome": "lorax",
+      "sobrenome": "fariazx",
+      "email": "mangilezqk@email.com",
+      "number_pais": "55",
+      "number_estado": "11",
+      "number_tel": "666667777",
+      "cep": "09683000",
+      "rua": "Rua João Biancalana",
+      "number_casa": "134",
+      "bloco": "apto 69",
+      "bairro": "Paulicéia",
+      "cidade": "São Bernardo do Campo",
+      "estado": "São Paulo",
+      "anotacoes": "rthrthh",
+      "id": "GmOYJi4dhLs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

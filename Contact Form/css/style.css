@@ -73,6 +73,7 @@ body {
 
 .form-header__text {
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 /*formulario de contato*/
