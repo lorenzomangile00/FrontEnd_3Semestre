@@ -1,0 +1,52 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Lorenzo Mangile",
+      "idade": 17,
+      "email": "mangile00@mangile.com"
+    },
+    {
+      "id": "ZDF74uwp2JI",
+      "nome": "Gustavo Negueba",
+      "idade": 17,
+      "email": "negueba@gmail.com"
+    },
+    {
+      "id": "X3npUim7yEw",
+      "nome": "Joao Victor",
+      "idade": 17,
+      "email": "jvzin@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": "",
+      "Texto": "Flaco Lopez",
+      "imagem": "https://www.palmeiras.com.br/wp-content/uploads/2025/10/16102025_cg_palmeiras_3049_21.jpg",
+      "qtdCurtidas": 670
+    },
+    {
+      "id": "9EPTHzrcll8",
+      "Texto": "Serie cancelada arquivo 81",
+      "imagem": "https://m.media-amazon.com/images/M/MV5BYjMzOTk2NzktNzYxNy00YTY4LTg1NTgtYWY5NmIzNzdiMzllXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "qtdCurtidas": 10
+    }
+  ],
+  "frutas": [
+    {
+      "id": "",
+      "nomeFruta": "Limão",
+      "cor": "Verde",
+      "tipoFruta": "Citrica"
+    }
+  ],
+  "jogos": [
+    {
+      "id": "",
+      "nomeJogo": "Free Fire",
+      "localJogo": "Mobile"
+     }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
