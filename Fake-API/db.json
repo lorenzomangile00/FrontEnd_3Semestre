@@ -90,5 +90,38 @@
       "id": "mcVCUZHhs0g"
     }
   ],
+  "calculadora": [
+    {
+      "id": "KeU9OyHGo40"
+    },
+    {
+      "n1": 4,
+      "n2": 2,
+      "op": "multiplicacao",
+      "resultado": "8.00",
+      "id": "Zv2r2RHS8Ao"
+    },
+    {
+      "n1": 3,
+      "n2": 2,
+      "op": "soma",
+      "resultado": "5.00",
+      "id": "GeB3jqeiKhQ"
+    },
+    {
+      "n1": 3,
+      "n2": 2,
+      "op": "subtracao",
+      "resultado": "1.00",
+      "id": "v-3Vqu9OQtY"
+    },
+    {
+      "n1": 3,
+      "n2": 3,
+      "op": "divisao",
+      "resultado": "1.00",
+      "id": "OmZ7jNwtkbU"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
