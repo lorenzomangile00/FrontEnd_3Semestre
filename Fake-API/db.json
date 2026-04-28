@@ -46,7 +46,49 @@
       "id": "",
       "nomeJogo": "Free Fire",
       "localJogo": "Mobile"
-     }
+    }
+  ],
+  "imc": [
+    {
+      "nome": "malvesi",
+      "altura": 1.9,
+      "peso": 180,
+      "IMC": 49.86149584487535,
+      "situacao": "Obesidade Grau III (considerada mórbida)",
+      "id": "vS82ucapRao"
+    },
+    {
+      "nome": "lorenzo",
+      "altura": 1.87,
+      "peso": 78,
+      "IMC": 22.305470559638533,
+      "situacao": "Saudável",
+      "id": "rZzxNDx03UE"
+    },
+    {
+      "nome": "nat",
+      "altura": 1.6,
+      "peso": 60,
+      "IMC": 23.437499999999996,
+      "situacao": "Saudável",
+      "id": "22wbnH-gpaQ"
+    },
+    {
+      "nome": "laura",
+      "altura": 1.7,
+      "peso": 58,
+      "IMC": 20.06920415224914,
+      "situacao": "Saudável",
+      "id": "El91gbB5ROI"
+    },
+    {
+      "nome": "gueba",
+      "altura": 1.8,
+      "peso": 63,
+      "IMC": 19.444444444444443,
+      "situacao": "Saudável",
+      "id": "mcVCUZHhs0g"
+    }
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
