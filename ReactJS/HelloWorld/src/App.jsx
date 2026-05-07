@@ -5,7 +5,7 @@ import Title from './components/title/title';
 function App() {
   return (
     <>
-      <Title texto="Bem Vindo, sou Título"/>
+      <Title nome="Lorenzo" sobrenome="Mangile" texto="Bem Vindo, sou Título"/>
       <Title texto="Eu sou outro titulo"/>
       <Paragrafo textoParagrafo="Esse é o paragrafo"/>
     </>
