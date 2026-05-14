@@ -7,7 +7,8 @@ import { Link } from "react-router-dom"
             <nav>
                 <Link to="/">Home</Link> {" | "}
                 <Link to="/quemsomos">Quem Somos</Link> {" | "}
-                <Link to="/cadfrutas">Cadastro de Frutas</Link>
+                <Link to="/cadfrutas">Cadastro de Frutas</Link> {" | "}
+                <Link to="/produtos">Produtos</Link> 
 
             </nav>
         </header>
