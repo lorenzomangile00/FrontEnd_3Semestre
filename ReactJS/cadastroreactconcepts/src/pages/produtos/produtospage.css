@@ -126,14 +126,25 @@ h1{
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 nav{
-    
+    display: flex;
+    justify-content: center;
     background-color: #d9cbfe;
 }
 
 .link{
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 a{
     color: white;
+}
+
+a.apagar-button{
+    color: rgb(130, 66, 208);
+}
+
+a.editar-button{
+    color: rgb(130, 66, 208)
 }

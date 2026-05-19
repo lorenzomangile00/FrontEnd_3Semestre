@@ -1,18 +1,225 @@
 {
   "produtos": [
     {
-      "titulo": "calcinha",
-      "descricao": "rosa com glitter",
-      "preco": "9.50",
-      "imagem": "https://th.bing.com/th/id/R.d2cb4d10ed665e70c2fcc45ad545399f?rik=iecUY5bBHBlONw&pid=ImgRaw&r=0",
-      "id": "w5KY8HMpi8U"
+      "titulo": "Shampoo CR7",
+      "descricao": "fedido",
+      "preco": "29.99",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "CSAOhnjE-UA"
+    },
+    {
+      "titulo": "Perfume Rabanne",
+      "descricao": "Perfume robo!!!",
+      "preco": "549.99",
+      "imagem": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/Paco-Rabanne-Phantom.jpg",
+      "id": "BUqe9b_y2iU"
+    },
+    {
+      "titulo": "Natura Essencial",
+      "descricao": "erewfefegvf",
+      "preco": "029",
+      "imagem": "hero.png",
+      "id": "lfPU7xlHZyQ"
+    },
+    {
+      "titulo": "Natura Essencial",
+      "descricao": "erewfefegvf",
+      "preco": "029",
+      "imagem": "hero.png",
+      "id": "U-GbMZEWH4M"
+    },
+    {
+      "titulo": "Natura Essencial",
+      "descricao": "erewfefegvf",
+      "preco": "029",
+      "imagem": "hero.png",
+      "id": "nmyurj3oRC0"
+    },
+    {
+      "titulo": "Natura Essencial",
+      "descricao": "erewfefegvf",
+      "preco": "029",
+      "imagem": "hero.png",
+      "id": "SCURK_MRmXY"
+    },
+    {
+      "titulo": "Shampoo CR7",
+      "descricao": "Cheiroso",
+      "preco": "29.99",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "R--QaCir8Ag"
+    },
+    {
+      "titulo": "Shampoo CR7",
+      "descricao": "Cheiroso",
+      "preco": "29.99",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "2CHAqqmKjh4"
+    },
+    {
+      "titulo": "Shampoo CR7",
+      "descricao": "Cheiroso",
+      "preco": "29.99",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "ZgT3nJPsBS0"
+    },
+    {
+      "titulo": "Shampoo CR7",
+      "descricao": "Cheiroso",
+      "preco": "29.99",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "G4rP7qXKrMM"
+    },
+    {
+      "titulo": "Shampoo CR7",
+      "descricao": "Cheiroso",
+      "preco": "29.99",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "DnokkfSvegA"
+    },
+    {
+      "titulo": "Shampoo CR7",
+      "descricao": "Cheiroso",
+      "preco": "29.99",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "-2GrG2cpMY0"
+    },
+    {
+      "titulo": "Shampoo CR7",
+      "descricao": "Cheiroso",
+      "preco": "29.99",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "WRZ58KcdRQM"
+    },
+    {
+      "titulo": "Shampoo CR7",
+      "descricao": "Cheiroso",
+      "preco": "29.99",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "b9T8vCyFQXs"
     },
     {
       "titulo": "Perfume Clash",
-      "descricao": "Clash",
+      "descricao": "Perfume",
+      "preco": "179.9",
+      "imagem": "https://cdn.shopify.com/s/files/1/0630/3029/6801/files/63019_3.jpg?v=1750695936",
+      "id": "h2uqcu5uGXE"
+    },
+    {
+      "titulo": "Perfume Rabanne",
+      "descricao": "Robo",
+      "preco": "539.99",
+      "imagem": "https://cdn.shopify.com/s/files/1/0853/1863/1748/files/Paco-Rabanne-Phantom.jpg",
+      "id": "f8M7tuoXf8c"
+    },
+    {
+      "titulo": "Shampoo CR7",
+      "descricao": "Cheiroso",
+      "preco": "29.9",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "8YUhKwklGfw"
+    },
+    {
+      "method": "POST",
+      "body": "{\"titulo\":\"Shampoo CR7\",\"descricao\":\"Cheiroso\",\"preco\":\"009\",\"imagem\":\"https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg\"}",
+      "header": {
+        "Content-Type": "application/json; charset=UFT-8"
+      },
+      "id": "_kOepiUHG0M"
+    },
+    {
+      "method": "POST",
+      "body": "{\"titulo\":\"Shampoo CR7\",\"descricao\":\"Cheiroso\",\"preco\":\"009\",\"imagem\":\"https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg\"}",
+      "header": {
+        "Content-Type": "application/json; charset=UFT-8"
+      },
+      "id": "A4u1zJAdHMo"
+    },
+    {
+      "method": "POST",
+      "body": "{\"titulo\":\"Shampoo CR7\",\"descricao\":\"Cheiroso\",\"preco\":\"009\",\"imagem\":\"https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg\"}",
+      "header": {
+        "Content-Type": "application/json; charset=UFT-8"
+      },
+      "id": "Ig6EAEQ8Ywc"
+    },
+    {
+      "method": "POST",
+      "body": "{\"titulo\":\"Shampoo CR7\",\"descricao\":\"Cheiroso\",\"preco\":\"009\",\"imagem\":\"https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg\"}",
+      "header": {
+        "Content-Type": "application/json; charset=UFT-8"
+      },
+      "id": "6o7HD7xK4Q8"
+    },
+    {
+      "method": "POST",
+      "body": "{\"titulo\":\"Shampoo CR7\",\"descricao\":\"Cheiroso\",\"preco\":\"02\",\"imagem\":\"https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg\"}",
+      "header": {
+        "Content-Type": "application/json; charset=UFT-8"
+      },
+      "id": "kyRlBW0qZeE"
+    },
+    {
+      "method": "POST",
+      "body": "{\"titulo\":\"Shampoo CR7\",\"descricao\":\"Cheiroso\",\"preco\":\"02\",\"imagem\":\"https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg\"}",
+      "header": {
+        "Content-Type": "application/json; charset=UFT-8"
+      },
+      "id": "uvSLMV7MOpI"
+    },
+    {
+      "method": "POST",
+      "body": "{\"titulo\":\"Shampoo CR7\",\"descricao\":\"Cheiroso\",\"preco\":\"02\",\"imagem\":\"https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg\"}",
+      "header": {
+        "Content-Type": "application/json; charset=UFT-8"
+      },
+      "id": "-IfKw0zefbo"
+    },
+    {
+      "id": "h0JG1CyuA0w"
+    },
+    {
+      "id": "0usV15k-9uU"
+    },
+    {
+      "id": "wH72eeYi_fk"
+    },
+    {
+      "id": "optzQHwl1xs"
+    },
+    {
+      "id": "QiBpQhuxPLQ"
+    },
+    {
+      "id": "qETJddHyZnw"
+    },
+    {
+      "titulo": "Shampoo CR7",
+      "descricao": "Cheiroso",
+      "preco": "009",
+      "imagem": "https://media.s-bol.com/3OGoPLrmVMxA/NL9YJE6/1040x1200.jpg",
+      "id": "d7LF99ix26g"
+    },
+    {
+      "titulo": "Natura Essencial",
+      "descricao": "Essencial da Natura",
+      "preco": "129.99",
+      "imagem": "https://tse1.mm.bing.net/th/id/OIP.vk5tZDubMb2AXlN1egxQ2gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "id": "jE-K59itMJA"
+    },
+    {
+      "titulo": "Natura Essencial",
+      "descricao": "fewf",
+      "preco": "03",
+      "imagem": "hero.png",
+      "id": "BJ_7yOj1IfI"
+    },
+    {
+      "titulo": "Perfume Clash",
+      "descricao": "Perfum Clash ",
       "preco": "189.99",
       "imagem": "https://cdn.shopify.com/s/files/1/0630/3029/6801/files/63019_3.jpg?v=1750695936",
-      "id": "YJod9wsX-5Q"
+      "id": "RC60OnEPmfQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
