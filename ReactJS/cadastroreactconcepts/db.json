@@ -1,23 +1,18 @@
 {
   "produtos": [
     {
-      "id": "1",
-      "titulo": "Oléo",
-      "descricao": "Oléo capilar",
-      "preco": 5.99
+      "titulo": "calcinha",
+      "descricao": "rosa com glitter",
+      "preco": "9.50",
+      "imagem": "https://th.bing.com/th/id/R.d2cb4d10ed665e70c2fcc45ad545399f?rik=iecUY5bBHBlONw&pid=ImgRaw&r=0",
+      "id": "w5KY8HMpi8U"
     },
     {
-      "id": "2",
-      "titulo": "Calcinha",
-      "descricao": "calcinha branca - fio dental",
-      "preco": 3.49
-    },
-    {
-      "titulo": "loras",
-      "descricao": "lorax",
-      "preco": 49.99,
-      "imagem": "hero.png",
-      "id": "ONOMLnamJzg"
+      "titulo": "Perfume Clash",
+      "descricao": "Clash",
+      "preco": "189.99",
+      "imagem": "https://cdn.shopify.com/s/files/1/0630/3029/6801/files/63019_3.jpg?v=1750695936",
+      "id": "YJod9wsX-5Q"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -5,7 +5,7 @@ import HomePage from './pages/home/homepage'
 import QuemSomosPage from './pages/quemsomos/quemsomospage'
 import CadastroFrutasPage from './pages/cadastrofrutas/cadastrofrutaspage'
 import Header from './assets/components/header/header'
-import ProdutosPage  from './pages/produtos/produtospage'
+import { ProdutosPage } from './pages/produtos/produtospage'
 
 
 function App() {
