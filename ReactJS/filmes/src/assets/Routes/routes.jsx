@@ -7,11 +7,7 @@ import CadastroGenero from "../pages/cadastroGenero/CadastroGenero.jsx"
 const Rotas = () => {
     return(
         <BrowserRouter>
-            <nav>
-                <Link to="/">Login</Link> {" "}
-                <Link to="/filme">Filmes</Link> {" "}
-                <Link to="/genero">Generos</Link> {" "}
-            </nav>
+
             <Routes>
                 <Route element={<Login/> } path="/"/>
                 <Route element={<CadastroFilme/> } path="/filme"/>

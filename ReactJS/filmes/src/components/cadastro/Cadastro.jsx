@@ -11,7 +11,7 @@ import Botao from "../botao/Botao";
 const Cadastro = (props) => {
     return (
         <section className="section_cadastro">
-            <form onSubmit={props.funcCadastro} className="layout_grid form_cadastro">
+            <form className="layout_grid form_cadastro">
                 <h1>{props.tituloCadastro}</h1>
                 <hr />
                 <div className="campos_cadastro">
@@ -27,14 +27,14 @@ const Cadastro = (props) => {
                     <div className="campo_cad_genero" style={{ display: props.visibilidade }}>
                         <label htmlFor="genero">Gênero</label>
                         <select name="genero" id="">
-                            <option value="" disabled selected>Selecione</option>
+                            <option value="" disabled>Selecione</option>
                             <option value="">op 1</option>
                             <option value="">op 2</option>
                             <option value="">op 3</option>
                         </select>
                     </div>
 
-                    <Botao nomeDoBotao="Cadastrar" />
+                    <Botao nomeDoBotao="Cadastrar" funcCadastro={props.funcCadastro}/>
                 </div>
             </form>
         </section>
