@@ -26,7 +26,7 @@ const Cadastro = (props) => {
                     </div>
                     <div className="campo_cad_genero" style={{ display: props.visibilidade }}>
                         <label htmlFor="genero">Gênero</label>
-                        <select name="genero" id="">
+                        <select name="genero" id="genero">
                             <option value="" disabled>Selecione</option>
                             <option value="">op 1</option>
                             <option value="">op 2</option>
@@ -34,7 +34,14 @@ const Cadastro = (props) => {
                         </select>
                     </div>
 
-                    <Botao nomeDoBotao="Cadastrar" funcCadastro={props.funcCadastro}/>
+                    {/* Botao Editar */}
+                    { props.btnEditar && 
+                    <Botao nomeDoBotao="Cancelar"
+                     funcBotao={props.cancelarEdicao}
+                      btnEditar={props.btnEditar}
+                      
+                      />}
+                    <Botao nomeDoBotao="Cadastrar" btnEditar={props.btnEditar} funcBotao={props.funcCadastro}/>
                 </div>
             </form>
         </section>
