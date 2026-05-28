@@ -21,6 +21,7 @@ const CadastroFilme = () => {
 
     const cadastrarFilme = async (e) => {
         e.preventDefault();
+            
 
         if (valor.trim().length == 0) {
             Alerta({
@@ -32,27 +33,15 @@ const CadastroFilme = () => {
             return false;
         }
 
-        if (genero == "") {
+        
+        try {
 
-            Alerta({
-                title: "Cadastro de filme",
-                text: "Selecione um gênero",
-                icon: "warning",
-                confirmButtonText: "OK"
-            })
-
-            return false
-        }
-
-        const formData = new FormData();
+            const formData = new FormData();
 
         formData.append("titulo", valor);
-
         formData.append("idGenero", genero);
 
-        formData.append("imagem", imagem);
 
-        try {
             const retornoAPI = await api.post("/Filme", formData)
 
             if (retornoAPI.status == 201) {
@@ -89,7 +78,7 @@ const CadastroFilme = () => {
 
     useEffect(() => {
         getFilmes(),
-        getGeneros()
+            getGeneros()
     }, [])
 
     const limparFormulario = () => {
@@ -106,7 +95,7 @@ const CadastroFilme = () => {
 
     const preEditar = (item) => {
         setIdEditar(item.idFilme);
-        setValor(item.nome);
+        setValor(item.titulo);
         setEditar(true);
         console.log(item);
     }
@@ -127,6 +116,20 @@ const CadastroFilme = () => {
             cancelButtonColor: "#d33",
             confirmButtonText: "Yes, delete it!"
         })
+
+        if (!result.isConfirmed) {
+            return
+        }
+
+        try {
+            await api.delete(`/Filme/${item.idFilme}`)
+
+            setListaFilmes(novaLista)
+
+            Alerta({})
+        } catch (error) {
+
+        }
     }
 
     const getGeneros = async () => {
