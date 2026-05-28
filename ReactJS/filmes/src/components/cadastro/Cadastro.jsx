@@ -27,10 +27,20 @@ const Cadastro = (props) => {
                     <div className="campo_cad_genero" style={{ display: props.visibilidade }}>
                         <label htmlFor="genero">Gênero</label>
                         <select name="genero" id="genero">
-                            <option value="" disabled>Selecione</option>
-                            <option value="">op 1</option>
-                            <option value="">op 2</option>
-                            <option value="">op 3</option>
+                            <option value="">Selecione</option>
+                            {props.listaGeneros?.map((item)=> (
+                                    <option 
+                                    key={item.idGenero}
+                                    value={item.idGenero}>{item.nome}</option>
+                                )
+                            )}
+                            {props.listaFilmes?.map((item)=> (
+                                    <option 
+                                    key={item.idFilme}
+                                    value={item.idFilme}>{item.titulo}</option>
+                                )
+                            )}
+                            
                         </select>
                     </div>
 
@@ -40,7 +50,7 @@ const Cadastro = (props) => {
                      funcBotao={props.cancelarEdicao}
                       btnEditar={props.btnEditar}
                       
-                      />}
+                    />}
                     <Botao nomeDoBotao="Cadastrar" btnEditar={props.btnEditar} funcBotao={props.funcCadastro}/>
                 </div>
             </form>

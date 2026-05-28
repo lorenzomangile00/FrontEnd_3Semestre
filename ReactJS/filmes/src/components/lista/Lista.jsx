@@ -41,7 +41,7 @@ const Lista = (props) => {
                                         <td data-cell="Gênero" style={{ display: props.visibilidade }}>
                                             {/* Segunda célula: mostra o nome do gênero caso o tipo da lista seja "filme".*/}
                                             {/* adicionar essa linha depois de fazer o metd de lista filme: */}
-                                            {props.tipoLista === "filme" ? (item.genero?.nome || '-') : '-'}
+                                            {props.tipoLista === "filme" ? (item.IdGeneroNavigation?.nome || '-') : '-'}
                                         </td>
                                         <td data-cell="Editar">
                                             <button className="icon" onClick={() => (props.funcEditar(item))}>
