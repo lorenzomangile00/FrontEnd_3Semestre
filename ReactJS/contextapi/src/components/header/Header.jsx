@@ -9,7 +9,10 @@ import CadastrarProduto from "../cadastrarProduto/CadastrarProduto"
 import ListarProduto from "../listar/ListarProduto"
 
 const Header = () => {
-    const {usuario} = useContext(UsuarioContext)
+    const {usuario,  setUsuario} = useContext(UsuarioContext)
+    const logout = () => {
+        setUsuario(null)
+    }
     const {produtoCon} = useContext(ProdutoContext)
     return(
         <header>
@@ -20,7 +23,8 @@ const Header = () => {
                 <Link to={"/cadastrarProduto"}>Cadastrar Produto</Link> {""}
                 <Link to={"/listarProduto"}>Listar Produto</Link>
             </nav>
-            <h2>Bem vindo, {usuario}</h2>
+            <h2>Bem vindo, {usuario ? usuario : "Visitante"}</h2>
+            <button onClick={()=>{logout()}}>Sair</button>
         </header>
         
     )

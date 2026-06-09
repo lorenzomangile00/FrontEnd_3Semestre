@@ -1,5 +1,6 @@
-import { useContext, useEffect, useState } from "react"
+import { useEffect } from "react"
 import { UsuarioContext } from "./UsuarioContext"
+
 
 export const UsuarioProvider = ({children}) => {
     const [usuario, setUsuario] = useState(null)
@@ -16,7 +17,6 @@ export const UsuarioProvider = ({children}) => {
             }}
         >
             {children}
-
         </UsuarioContext.Provider>
     )
 }

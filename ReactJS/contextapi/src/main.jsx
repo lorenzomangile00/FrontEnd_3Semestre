@@ -11,10 +11,10 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     
     <UsuarioProvider>
-   <ProdutoProvider>
+ 
     <App/>
     
-</ProdutoProvider>
+
     </UsuarioProvider>
   </StrictMode>,
 )
