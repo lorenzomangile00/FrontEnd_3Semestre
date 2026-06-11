@@ -1,5 +1,6 @@
-import { useEffect } from "react"
+import { useContext, useEffect, useState } from "react"
 import { UsuarioContext } from "./UsuarioContext"
+
 
 
 export const UsuarioProvider = ({children}) => {
@@ -7,8 +8,13 @@ export const UsuarioProvider = ({children}) => {
 
     useEffect(()=>{
         const usuarioLogado = JSON.parse(localStorage.getItem("usuario"))
-        setUsuario(usuarioLogado)
+
+        if (usuarioLogado) {
+            setUsuario(usuarioLogado)
+        }
     },[])
+
+
 
     return (
         <UsuarioContext.Provider

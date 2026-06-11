@@ -2,10 +2,10 @@ import { useContext, useEffect, useState } from "react"
 import { UsuarioContext } from "./UsuarioContext"
 
 export const UsuarioProvider = ({children}) => {
-    const [usuario, setUsuario] = useState(null)
+    const [usuario, setUsuario] = useState()
 
     useEffect(()=>{
-        const usuarioLogado = JSON.parse(localStorage.getItem("usuario"))
+        const usuarioLogado = localStorage.getItem("usuario")
         setUsuario(usuarioLogado)
     },[])
 

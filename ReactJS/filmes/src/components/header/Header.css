@@ -41,3 +41,8 @@ header{
         margin-left: 10px;
     }
 }
+
+.boas_vindas{
+    font-size: smaller;
+    color: #1e0207;
+}

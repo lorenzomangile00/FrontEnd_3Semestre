@@ -57,6 +57,8 @@ const CadastroGenero = () => {
                     })
                     
                     limparFormulario();
+
+                    getGeneros()
                 } else {
                      Alerta({
                         title: "Cadastro de gênero",
@@ -98,7 +100,7 @@ const CadastroGenero = () => {
      }
 
      const editarGenero = async (e) => {
-        e.preventDefault();
+        
         
         // alert(`Agora sim: Gênero: ${valor} | Id: ${idEditar}`);
 

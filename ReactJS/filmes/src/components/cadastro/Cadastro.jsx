@@ -4,7 +4,8 @@ import Botao from "../botao/Botao";
 const Cadastro = (props) => {
     return (
         <section className="section_cadastro">
-            <form className="layout_grid form_cadastro">
+
+            <form onSubmit={props.funcCadastro} className="layout_grid form_cadastro">
 
                 <h1>{props.tituloCadastro}</h1>
 
@@ -19,7 +20,7 @@ const Cadastro = (props) => {
                             type="text"
                             name="nome"
                             placeholder={`Digite o nome do ${props.placeholder}`}
-                            value={props.valor || ""}
+                            value={props.valor}
                             onChange={(e) => props.setValor(e.target.value)}
                         />
                     </div>
@@ -49,21 +50,23 @@ const Cadastro = (props) => {
                         </select>
                     </div>
 
-                    <div className="campo_cad_imagem">
-                        <label htmlFor="arquivo">Imagem</label>
+                    {props.visibilidadeImagem && (
+                        <div className="campo_cad_imagem">
+                            <label htmlFor="arquivo">Imagem</label>
 
-                        <label htmlFor="arquivo" className="btn_arquivo">
-                            {props.imagem?.name || "Escolher Arquivo"}
-                        </label>
+                            <label htmlFor="arquivo" className="btn_arquivo">
+                                {props.imagem?.name || "Escolher Arquivo"}
+                            </label>
 
-                        <input
-                            id="arquivo"
-                            type="file"
-                            accept="image/*"
-                            style={{ display: "none" }}
-                            onChange={(e) => props.setImagem(e.target.files[0])}
-                        />
-                    </div>
+                            <input
+                                id="arquivo"
+                                type="file"
+                                accept="image/*"
+                                style={{ display: "none" }}
+                                onChange={(e) => props.setImagem(e.target.files[0])}
+                            />
+                        </div>
+                    )}
 
                     {props.btnEditar && (
                         <Botao
@@ -78,6 +81,14 @@ const Cadastro = (props) => {
                         btnEditar={props.btnEditar}
                         funcBotao={props.funcCadastro}
                     />
+
+                    {props.mostrarImagem && (
+                        <>
+                            <label htmlFor="arquivo" className="btn_arquivo">Escolher arquivo</label>
+                            <input id="arquivo" type="file" style={{ display: "none" }}
+                                onChange={(e) => props.setImagem(e.target.files[0])} />
+                        </>
+                    )}
 
                 </div>
 

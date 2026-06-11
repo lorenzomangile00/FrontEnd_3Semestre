@@ -114,7 +114,7 @@ const CadastroFilme = () => {
     };
 
     const editarFilme = async (e) => {
-        e.preventDefault();
+        
 
         try {
 
@@ -230,6 +230,7 @@ const CadastroFilme = () => {
                     genero={genero}
                     setGenero={setGenero}
                     setImagem={setImagem}
+                    visibilidadeImagem={true}
                     funcCadastro={editar ? editarFilme : cadastrarFilme}
                     btnEditar={editar}
                     cancelarEdicao={cancelarEdicao}

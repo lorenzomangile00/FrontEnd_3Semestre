@@ -3,17 +3,18 @@ import { Link } from 'react-router-dom';
 import Login from "../pages/login/login.jsx"
 import CadastroFilme from "../pages/cadastroFilme/CadastroFilme.jsx"
 import CadastroGenero from "../pages/cadastroGenero/CadastroGenero.jsx"
+import PrivateRoute from "./PrivateRoute.jsx";
 
 const Rotas = () => {
     return(
-        <BrowserRouter>
+     
 
             <Routes>
                 <Route element={<Login/> } path="/"/>
-                <Route element={<CadastroFilme/> } path="/filme"/>
-                <Route element={<CadastroGenero/> } path="/genero"/>
+                <Route element={<PrivateRoute><CadastroFilme/></PrivateRoute> } path="/filmes"/>
+                <Route element={<PrivateRoute><CadastroGenero/> </PrivateRoute>} path="/genero"/>
             </Routes>
-        </BrowserRouter>
+       
     )
 }
 
